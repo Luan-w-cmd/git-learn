@@ -22,7 +22,12 @@ while True:
     elif b == "/":
        if c == 0:
           print("除数不能为0")
+       else:
+          print(a // c)
     else:
-        print(a // c)
-else:
-    print("运算符号错误，请输入+,-,*,/")
+          print("运算符号错误，请输入+,-,*,/")
+
+    continue_choice = input("\n是否继续？(输入'y'继续，其他键退出)：")
+    if continue_choice.lower() != "y":
+        break
+
