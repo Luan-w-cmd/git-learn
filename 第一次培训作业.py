@@ -3,7 +3,7 @@ m = 66
 left = 0
 right = 100
 for i in range(100):
-    mid = (left + right) / 2
+    mid = (left + right) // 2
     print(mid)
     if mid == m:
         print(i+1)
