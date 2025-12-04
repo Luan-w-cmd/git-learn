@@ -24,4 +24,22 @@ print(ele)
 ele2 = tuple[-2]
 print(ele2)
 
+#动物类
+class animal:
+    def 叫(self):
+        print("某种动物在叫")
+class dog(animal):
+    def 叫(self):
+        print("旺旺！")
+class cat(animal):
+    def 叫(self):
+        print("喵喵！")
+dog = dog()
+cat = cat()
+
+dog.叫()
+cat.叫()
+
+
+
 
